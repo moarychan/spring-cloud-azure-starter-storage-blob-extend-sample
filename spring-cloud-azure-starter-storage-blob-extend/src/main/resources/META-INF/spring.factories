@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.azure.spring.extend.cloud.autoconfigure.storage.blob.ExtendAzureStorageBlobResourceAutoConfiguration,\
+  com.azure.spring.extend.cloud.autoconfigure.storage.blob.ExtendStorageBlobsAutoConfiguration

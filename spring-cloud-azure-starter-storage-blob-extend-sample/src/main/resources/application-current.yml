@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          account-name: ${FIRST_ACCOUNT}
+          container-name: ${FIRST_CONTAINER}
+          account-key: ${ACCOUNT_KEY_OF_FIRST_ACCOUNT}
+current:
+  second-container: ${SECOND_CONTAINER}

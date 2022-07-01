@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          enabled: false
+        blobs:
+          enabled: true
+          configurations:
+            - account-name: ${FIRST_ACCOUNT}
+              container-name: ${FIRST_CONTAINER}
+              account-key: ${ACCOUNT_KEY_OF_FIRST_ACCOUNT}
+            - account-name: ${SECOND_ACCOUNT}
+              container-name: ${SECOND_CONTAINER}
+              account-key: ${ACCOUNT_KEY_OF_SECOND_ACCOUNT}
